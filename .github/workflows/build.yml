@@ -14,7 +14,7 @@ jobs:
 
       - name: Archive Project
         run: |                        
-          xcodebuild archive -project MyApp/MyApp.xcodeproj \
+          xcodebuild archive -project pxview/ios/PxViewR.xcodeproj/project.pbxproj \
                              -scheme MainApp \
                              -sdk iphoneos \
                              -configuration Release \
