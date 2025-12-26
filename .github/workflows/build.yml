@@ -14,7 +14,7 @@ jobs:
 
       - name: Archive Project
         run: |                        
-          xcodebuild archive -project /PxViewR.xcodeproj/project.pbxproj \
+          xcodebuild archive -project ios/PxViewR.xcodeproj/project.pbxproj \
                              -scheme PxView \
                              -sdk iphoneos \
                              -configuration Release \
