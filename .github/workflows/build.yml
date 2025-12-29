@@ -18,7 +18,7 @@ jobs:
                              -scheme PxViewR \
                              -sdk iphoneos \
                              -configuration Release \
-                             -archivePath MainApp.xcarchive \
+                             -archivePath PxViewR.xcarchive \
                              CODE_SIGNING_ALLOWED=NO
 
       - name: Create ExportOptions.plist
